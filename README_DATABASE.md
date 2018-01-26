@@ -6,23 +6,22 @@ fun开头的是函数
 sp开头的是存储过程
 ~~~~
 >视图
-- View_detail_data
-- View_detail_score
-- View_detail_selector_with_title
-- View_published_que
-- View_result_score_name
-- View_selector_score
-- View_selector_score
+- [View_detail_data](#view_detail_data_详细统计数据)
+- [View_detail_score](#view_detail_score)
+- [View_detail_selector_with_title](#view_detail_selector_with_title)
+- [View_published_que](#view_published_que)
+- [View_result_score_name](#view_result_score_name)
+- [View_selector_score](#view_selector_score)
 >函数
-- fun_is_complish
-- fun_update_stuinfo
+- [fun_is_complish](#fun_is_complish)
+- [fun_update_stuinfo](#fun_update_stuinfo)
 >存储过程
-- sp_save_que
+- [sp_save_que](#sp_save_que)
 
 
 ---
 
-##### View_detail_data-详细统计数据
+##### View_detail_data
 
 >详细统计数据，该视图对应统计页面-详情内的数据
 ~~~~
@@ -220,13 +219,6 @@ Selector_score
 
 ---
 
-##### View_selector_score
-
->每一个选项的详细情况，选项在数据库的id、所属题目的id、选项标记符号、选项内容、选项权值、选择该选项该题的分数。
-~~~~
-~~~~
-
----
 
 ##### fun_is_complish
 >定义：fun_is_complish(ybid_par bigint) RETURNS tinyint(1)
